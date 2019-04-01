@@ -55,7 +55,7 @@ public void testMoveUp()
     instance.moveUp(i);
      System.out.println("entery is moved up");
 }
-
+//ghg
 @Test
 public void testMoveDown() 
 {
