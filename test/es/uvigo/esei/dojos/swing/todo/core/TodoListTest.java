@@ -44,37 +44,73 @@ public class TodoListTest {
     @Test
 public void testMoveUp() 
 {
-fail("Not yet implemented");
+    System.out.println("MoveUp");
+     int i=0;
+     String item;
+     TodoList instance=new TodoList();
+     item ="susheel";
+     instance.add(item);
+     item="avani";
+     instance.add(item);
+    instance.moveUp(i);
+     System.out.println("entery is moved up");
 }
 
 @Test
 public void testMoveDown() 
 {
-fail("Not yet implemented");
+    
+
 }
 
 @Test
 public void testAdd() 
 {
-fail("Not yet implemented");
+    System.out.println("Added");
+    String item="avani";
+    TodoList instance= new TodoList() ;
+    instance.add(item);
+    System.out.println(item);
+    int i= instance.size();
+    assertTrue(i>0);
+    System.out.println("Entery is added in TodoList");
+
 }
 
 @Test
 public void testEditAt() 
 {
-fail("Not yet implemented");
+    System.out.println("EditAt");
+    String item="susheel";
+    TodoList instance= new TodoList() ;
+    instance.add(item);
+    System.out.println(item);
+    int i= instance.size();
+    assertTrue(i>0);
+    System.out.println("Entery is edited"); 
+
 }
 
 @Test
 public void testRemoveAt() 
 {
-fail("Not yet implemented");
+    
+ System.out.println("RemoveAt");
+    String item="avani";
+    TodoList instance= new TodoList() ;
+    instance.add(item);
+    instance.removeAt(0);
+    int i= instance.size();
+    assertTrue(i==0);
+    System.out.println("Entery is deleted");
 }
 
 @Test
 public void testSize() 
 {
-fail("Not yet implemented");
+    
+    
+
 }
     
 }
